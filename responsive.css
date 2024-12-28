@@ -1,0 +1,653 @@
+@media only screen and (max-width: 1200px) {
+  :root {
+    --container: 1024px;
+  }
+  .banner-img {
+    flex: 1;
+    display: flex;
+  }
+  .online-payments-about-grid {
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  }
+  .op-bar {
+    width: 100%;
+  }
+  .op-col:last-child {
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  }
+  .reason-block:nth-child(2) {
+    left: 720px;
+  }
+  .reason-block:nth-child(5) {
+    top: 260px;
+    left: 220px;
+  }
+  .reason-block:nth-child(6) {
+    left: 575px;
+  }
+  .reason-block:nth-child(7) {
+    top: 360px;
+  }
+  .reason-block:nth-child(9) {
+    left: 340px;
+  }
+  .reason-block:nth-child(10) {
+    left: 700px;
+  }
+  .careers-why-card {
+    width: 310px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  :root {
+    --container: 992px;
+  }
+  #overview-reasons .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: auto;
+  }
+  .reason-block:nth-child(1n) {
+    position: static;
+    margin-bottom: 20px;
+  }
+  #overview-reasons .container img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-25%, -50%);
+  }
+  #careers-info .container {
+    flex-direction: column-reverse;
+  }
+  #careers-info img {
+    padding: 0;
+  }
+  .careers-info-desc {
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 992px) {
+  :root {
+    --container: 768px;
+  }
+  .menu-sm {
+    display: block;
+  }
+  header nav {
+    display: none;
+  }
+  .footer-col {
+    flex: unset;
+    width: 25%;
+  }
+  .tab-pane.active {
+    display: block;
+  }
+  .tab-pane:nth-child(n) .tab-right-content {
+    margin-left: 0;
+    max-width: 100%;
+  }
+  #home-dev:before {
+    width: auto;
+    bottom: auto;
+    height: 350px;
+    left: 0;
+    background-position-x: right;
+    background-size: auto 100%;
+  }
+  .home-dev-content {
+    padding-top: 330px;
+    width: 100%;
+  }
+  .tab-btn-container {
+    position: sticky;
+    top: 15px;
+    z-index: 15;
+  }
+  #home-about .slider-item h1 {
+    font-size: 80px;
+  }
+  #online-payments-developed .container {
+    flex-direction: column-reverse;
+  }
+  .op-col:first-child {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .op-col:first-child p {
+    max-width: 100%;
+  }
+  #online-payments-guarantee {
+    margin: 50px auto 20px;
+  }
+  #online-payments-guarantee .container {
+    flex-direction: column;
+  }
+  #online-payments-guarantee .tab-right-content {
+    margin: 25px 0 0;
+  }
+  .op-col:last-child {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+  .page-banner-container.alt {
+    flex-direction: column;
+  }
+  .banner-img img {
+    transform: none;
+  }
+  .banner-info {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+  #overview-recognition .container,
+  #careers-jobs .container {
+    flex-direction: column;
+  }
+  .reco-slider {
+    width: 100%;
+  }
+  .reco-heading {
+    width: 100%;
+    text-align: center;
+  }
+  .team-card:nth-child(2) {
+    margin: 0 15px;
+  }
+  .team-card {
+    padding: 15px;
+  }
+  .team-cards {
+    align-items: stretch;
+  }
+  .contact-form input {
+    width: 100%;
+  }
+  .contact-form form {
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: 100%;
+  }
+  .contact-form textarea {
+    grid-row: 6/7;
+    grid-column: 1;
+  }
+  .contact-form button {
+    grid-row: 7/8;
+    grid-column: 1;
+  }
+  .contact-selector-wrapper {
+    grid-column: 1;
+    font-size: 20px;
+  }
+  .contact-selector {
+    margin-left: 10px;
+    width: calc(100% - 110px);
+  }
+  .contact-selector-wrapper .selected {
+    padding: 12px;
+  }
+  .selected-txt {
+    font-size: 20px;
+  }
+  .careers-why-cards {
+    flex-direction: column;
+  }
+  .careers-why-card {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  #careers-why:before {
+    height: auto;
+    top: 250px;
+  }
+  #careers-jobs {
+    margin: 20px auto;
+  }
+  #pos-info1 .container,
+  #invoicing-workflow .container {
+    flex-direction: column;
+  }
+  #pos-info2 .container,
+  #invoicing-designed .container {
+    flex-direction: column-reverse;
+  }
+  #pos-info1 .pos-info-desc,
+  #pos-info2 .pos-info-desc,
+  #invoicing-workflow .pos-info-desc,
+  #invoicing-designed .pos-info-desc {
+    max-width: 100%;
+  }
+  #pos-info1 .mr-2,
+  #pos-info2 .mr-2,
+  #invoicing-workflow .mr-2,
+  #invoicing-designed .mr-2 {
+    margin-right: 0;
+  }
+  #pos-info3 .container {
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+  }
+  .pos-info-heading {
+    max-width: 100%;
+  }
+  .pos-info-bar {
+    width: 100%;
+    text-align: initial;
+  }
+  #invoicing-ops .flex-justify-between {
+    flex-direction: column;
+  }
+  #invoicing-ops .pos-info-heading {
+    margin-right: 0px;
+  }
+  #payment-links-get-started .tab-right-content {
+    margin: 0 auto;
+  }
+  #billing-quote .flex {
+    flex-direction: column;
+  }
+  #billing-quote .img-wrapper {
+    margin: 25px 0 0;
+  }
+  #billing-info1 .flex-center,
+  #billing-info3 .flex-center {
+    flex-direction: column;
+  }
+  #billing-info1 .pos-info-desc,
+  #billing-info3 .pos-info-desc {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  #billing-info2 .container {
+    flex-direction: column-reverse;
+  }
+  .billing-info2-content .features-grid.mr-2 {
+    margin-right: 0;
+  }
+  #gateway-features .container {
+    flex-direction: column-reverse;
+  }
+  .info-quote {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  #billing-quote .img-wrapper {
+    width: 100%;
+  }
+  .billing-info2-content .features-grid {
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  :root {
+    --container: 640px;
+  }
+  #home-dev:before {
+    display: none;
+  }
+  .home-dev-content {
+    padding-top: 0;
+  }
+  .text-slider-item h1 {
+    font-size: 42px;
+  }
+  .menu-trigger {
+    width: 36px;
+    height: 30px;
+  }
+  .op-tabs .tab-btn-container {
+    width: 350px;
+  }
+  #gateway-tabs .tab-btn-container {
+    width: 475px;
+  }
+  #overview-info-section .container {
+    flex-direction: column-reverse;
+  }
+  .info-section-col {
+    width: 100%;
+  }
+  #overview-reasons .container img {
+    display: none;
+  }
+  #overview-reasons {
+    margin: 30px auto 20px;
+    padding: 15px 10px;
+  }
+  #overview-recognition,
+  #careers-jobs {
+    margin: 30px auto 20px;
+  }
+  #overview-reasons:before {
+    border-radius: 35px;
+    top: 0;
+    left: 10px;
+    right: 10px;
+    transform: none;
+  }
+  #overview-reasons .container {
+    align-items: center;
+  }
+  .team-cards {
+    flex-direction: column;
+  }
+  .team-card:nth-child(2) {
+    margin: 25px 0;
+  }
+  #contact-main .container {
+    flex-direction: column;
+  }
+  #pos-features .container {
+    grid-template-columns: 100%;
+  }
+  #pos-info1 img,
+  #pos-info2 img,
+  #invoicing-workflow img,
+  #invoicing-designed img {
+    max-width: 100%;
+  }
+  .contact-gr-band {
+    height: auto;
+  }
+  .gr-title {
+    display: block;
+    margin: 0 0 10px;
+  }
+  #payout-features .pos-feat-grid {
+    grid-template-columns: 1fr;
+  }
+  #billing-customized .container {
+    flex-direction: column;
+  }
+  #partner-process .container {
+    flex-direction: column-reverse;
+  }
+}
+@media only screen and (max-width: 640px) {
+  :root {
+    --container: calc(100% - 30px);
+  }
+  .text-slider-item h1 {
+    font-size: 18px;
+  }
+  .footer-col {
+    flex: unset;
+    width: 33%;
+  }
+  .stories-title {
+    font-size: 26px;
+  }
+  .tab-content-title {
+    font-size: 30px;
+  }
+  #com-sec .container {
+    padding: 20px 10px;
+  }
+  .tab-btn-container {
+    width: 235px;
+  }
+  #com-sec .tab-btn-container {
+    width: 290px;
+  }
+  #home-main h1 {
+    font-size: 36px;
+  }
+  #home-main p {
+    font-size: 16px;
+  }
+  .menu-sm-list .menu-item {
+    font-size: 32px;
+  }
+  #home-about .slider-item h1 {
+    font-size: 40px;
+    letter-spacing: 0;
+  }
+  #home-about .slider-wrapper p {
+    font-size: 30px;
+  }
+  .about-para {
+    font-size: 16px;
+  }
+  .home-tech-heading {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .home-dev-title {
+    font-size: 32px;
+  }
+  #home-pre-footer h2 {
+    font-size: 24px;
+  }
+  .story-item {
+    font-size: 16px;
+  }
+  #home-about .text-slider {
+    margin: 15px 0 20px;
+  }
+  .op-about-item {
+    flex-direction: column;
+  }
+  .op-tabs {
+    padding: 15px;
+  }
+  .online-payments-about-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+  .op-col:last-child {
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  }
+  .reason-block:nth-child(1n) {
+    white-space: normal;
+    font-size: 16px;
+  }
+  .page-heading {
+    font-size: 48px;
+  }
+  .page-banner-txt {
+    font-size: 20px;
+  }
+  .info-section-heading,
+  .reasons-section-heading,
+  .journey-heading {
+    font-size: 32px;
+  }
+  .info-section-txt {
+    font-size: 18px;
+  }
+  .journey-card {
+    padding: 20px 10px 10px;
+  }
+  .journey-slider-item {
+    padding: 65px 15px 30px;
+  }
+  .journey-badge {
+    font-size: 16px;
+  }
+  .journey-title {
+    font-size: 18px;
+  }
+  .journey-desc {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .careers-ifo-heading {
+    font-size: 28px;
+  }
+  .careers-info-txt {
+    font-size: 16px;
+  }
+  .careers-why-heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .partner-ways-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+  .partner-ways-card {
+    max-width: 100%;
+    min-width: 1px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .sec-tab-list-item {
+    padding-left: 0;
+    font-size: 16px;
+  }
+  .sec-tab-list-item img {
+    position: static;
+  }
+  .tab-btn {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .home-dev-badge {
+    font-size: 16px;
+  }
+  .home-dev-pills {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 55px;
+  }
+  .home-dev-pill,
+  .home-dev-pill:last-child {
+    margin: 0 auto 35px;
+  }
+  .footer-col {
+    width: 50%;
+  }
+  .op-tabs .tab-btn-container {
+    width: 280px;
+    transform: translateX(-15px);
+  }
+  .op-bar span {
+    font-size: 18px;
+  }
+  .pos-heading-title {
+    font-size: 26px;
+  }
+  .pos-heading-text,
+  #pos-terminal-page ul,
+  .pos-info-txt {
+    font-size: 16px;
+  }
+  .pos-info-bar {
+    flex-direction: column;
+  }
+  .team-popup-heading {
+    padding: 0 20px;
+  }
+  p.popup-desc {
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+  .desc-awards-heading {
+    padding: 15px 20px;
+  }
+  .popup .reco-slider-item {
+    padding: 18px 20px;
+  }
+  .team-name {
+    font-size: 20px;
+    margin: 20px auto 5px;
+  }
+  .popup .team-position {
+    margin: 0 auto 15px;
+    font-size: 20px;
+  }
+  .contact-selector {
+    width: 100%;
+    margin: 10px 0 0;
+  }
+  .com-list-item ul li {
+    margin-right: 5px;
+    font-size: 16px;
+  }
+  #com-sec .tab-btn-container {
+    width: 270px;
+  }
+  .com-list-item {
+    flex-direction: column;
+  }
+  #payment-links-get-started .tab-content-txt {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .testimonial-txt {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  #billing-quote .section-heading,
+  #billing-info2 .section-heading,
+  #billing-simplified .section-heading,
+  #billing-testimonial .section-heading,
+  #partner-page .section-heading {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  #gateway-tabs .tab-btn-container {
+    max-width: 265px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: none;
+  }
+}
+ 
+ @media (max-width: 640px) 
+  {
+     .op-about-item-event1 {
+
+    flex-direction: column;  
+}
+  
+  }
+  
+  @media only screen and (max-width: 500px) {
+
+  .custom-banner-img-sm
+  {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+
+@media (max-width:450px)
+{
+.containers .heading{
+  font-size:25px;
+ 
+}
+.containers .box-container{
+    grid-template-columns:  1fr;
+    
+}
+.containers .box-container .box .image{
+    height: 200px;
+
+
+}
+.containers .box-container .content p{
+  font-size: 12px;
+ 
+}
+.containers .box-container .content .icons span{
+  font-size: 12px;
+}
+}
+  @media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+  
+}
+
